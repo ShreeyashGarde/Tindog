@@ -1,0 +1,163 @@
+#title{
+  background-color: #ff4c68
+
+}
+h1,h2,h3,body{
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+h3{
+  font-size: 1.5rem;
+}
+
+p{
+  color: #8f8f8f
+}
+
+.container-fluid{
+  padding: 3% 15% ;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight:bold;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.nav-item{
+  padding: 0 18px 0 18px;
+}
+.nav-link{
+  font-family: 'Montserrat-light';
+  font-size: 1.2rem;
+}
+.Download-button{
+  margin: 5% 3% 5% 0;
+}
+.title-image{
+  width: 20%;
+    transform: rotate(25deg);
+position: absolute;
+margin-left: 5%;
+}
+
+
+.container{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #ff4c68;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: red;
+}
+/* testemonial section */
+#testimonials{
+padding: 700px 7% 0 7%;
+text-align: center;
+background-color: #ff4c68;
+color: #fff;
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+}
+#press{
+  background-color: #ff4c68;
+  padding-bottom: 3%;
+  text-align: center;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+#cta{
+  padding: 70px;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+  padding: 2% 7%;
+}
+
+.row{
+  padding: 3% 2%;
+}
+@media(max-width:1028px) {
+  #title{
+    text-align: center;
+    }
+    .title-image{
+      position: static;
+      transform: rotate(0);
+    }
+    .carousel-item{
+    position: static;
+      }
+      #testimonials{
+      padding: 50px 7% 0 7%;
+}
+#features{
+  padding: 7% 15%;
+  position: static;
+
+}
+}
+
+.Download{
+  background-color: #ff4c68;
+  font-family: 'Montesrrat', sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+.foot{
+
+  font-size: 3rem;
+  padding: 0 0 30px;
+  margin-left: 250px;
+  margin-right: 250px;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+.foot-button{
+  margin: 10px 15px 10px;
+}
+.end{
+  background-color: #fff;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.Copyright{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.socials{
+  margin-left: 15px;
+  margin-top: 15px;
+}
